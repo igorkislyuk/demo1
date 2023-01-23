@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 
-        let button = UIButton(frame: .zero)
+        let button = PurchaseButton(frame: .zero)
         button.setTitle("New purchase", for: .normal)
         view.addSubview(button)
         button.setTitleColor(.blue, for: .normal)
