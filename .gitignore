@@ -1,0 +1,19 @@
+Build
+DerivedData
+Archives
+
+# Xcode
+#
+*.xcodeproj
+!*AccountWidgetKit.xcodeproj
+!docs/DEVELOPMENT/ADR/MBIOS-37812_async_tools/Example/Example.xcodeproj
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# VSCode
+.vscode
