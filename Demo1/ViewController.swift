@@ -11,8 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
 
+        createTransferButton()
+    }
+
+    private func createTransferButton() {
         let button = UIButton(frame: .zero)
         button.setTitle("Transfer", for: .normal)
         view.addSubview(button)
