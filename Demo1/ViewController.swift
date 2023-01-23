@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
 
         let button = UIButton(frame: .zero)
-        button.setTitle("Purchase", for: .normal)
+        button.setTitle("Transfer", for: .normal)
         view.addSubview(button)
         button.setTitleColor(.blue, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -23,5 +23,10 @@ class ViewController: UIViewController {
             button.centerYAnchor.constraint(equalTo: view.centerYAnchor)
         ])
         view.updateConstraintsIfNeeded()
+    }
+
+    private func transfer() {
+        let money = Money(amount: 1.0, currency: "RUB") // money from backend
+        // TODO: - call transfer method
     }
 }
