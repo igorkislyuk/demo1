@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
 
         let button = UIButton(frame: .zero)
-        button.setTitle("Purchase", for: .normal)
+        button.setTitle("New purchase", for: .normal)
         view.addSubview(button)
         button.setTitleColor(.blue, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
