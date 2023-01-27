@@ -7,4 +7,7 @@
 
 import UIKit
 
-class PurchaseButton: UIButton {}
+// TODO: доделать его попозже
+class PurchaseButton: UIButton {
+
+}
