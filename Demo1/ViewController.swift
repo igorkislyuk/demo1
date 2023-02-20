@@ -31,6 +31,10 @@ class ViewController: UIViewController {
     private func transfer() {
         let money = Money(amount: 1.0, currency: "RUB") // money from backend
         print(money)
-        // TODO: - call transfer method
+        self.transferNetwork()
+    }
+
+    private func transferNetwork() {
+
     }
 }
