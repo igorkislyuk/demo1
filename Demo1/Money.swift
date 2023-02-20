@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Структура суммы
 struct Money {
     let amount: Decimal
     let currency: String
